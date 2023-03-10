@@ -6,11 +6,18 @@ body {
 
 .header {
     background-color: #d3d3d3;
+    text-align: center;
 }
 
 .header-div {
     background-color: #727171;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+main {
+    margin: auto;
+    height: 500px;
+    width: 500px;
 }
 
 section div {
@@ -24,3 +31,10 @@ section div {
     gap: .8rem;
     margin-bottom: 10px;
 }
+
+footer {
+    text-align: center;
+}
+
+
+
