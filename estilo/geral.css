@@ -30,11 +30,24 @@ section div {
     display: flex;
     gap: .8rem;
     margin-bottom: 10px;
+    transition: all 250ms;
+}
+
+.section-fotos-one:hover, 
+.section-fotos-two:hover, 
+.section-fotos-tre:hover{
+    filter: brightness(1.2); /*efeito de brilho*/
+    transform: translateY(-2px);/*translateY move o efeito no eixo y*/
 }
 
 footer {
     text-align: center;
-}
+    padding-bottom: 2rem;
+  }
+  footer span {
+    font-weight: bold;
+    color: #20C997;
+  }
 
 
 
