@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 body {
-    font-family: "Josefin Sans"
+    font-family: "Josefin Sans";
+    background-color: #3f3f3f;
 }
 
 .header {
@@ -18,6 +19,7 @@ main {
     margin: auto;
     height: 500px;
     width: 500px;
+    background-color: #fff;
 }
 
 section div {
@@ -31,6 +33,9 @@ section div {
     gap: .8rem;
     margin-bottom: 10px;
     transition: all 250ms;
+    width: 320px;
+    padding: 10px;
+    justify-content: center;
 }
 
 .section-fotos-one:hover, 
