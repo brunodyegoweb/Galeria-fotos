@@ -35,7 +35,7 @@ section div {
     transition: all 250ms;
     width: 320px;
     padding: 10px;
-    justify-content: center;
+    justify-content:center;
 }
 
 .section-fotos-one:hover, 
